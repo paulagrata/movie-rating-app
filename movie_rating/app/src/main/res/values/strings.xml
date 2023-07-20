@@ -1,0 +1,103 @@
+<resources>
+    <string name="app_name">Movie Rating</string>
+    <string name="movie_title"> Movie Title</string>
+    <string name="comment">Comments</string>
+    <string-array name="genre">
+        <item>Select a Genre …</item>
+        <item>Comedy</item>
+        <item>Horror</item>
+        <item>Drama</item>
+        <item>Action</item>
+        <item>Romance</item>
+        <item>Fantasy</item>
+    </string-array>
+    <string name="submit_review">Submit Review</string>
+    <string name="add_a_review">Add a Review</string>
+
+    <string name="review_entered">Review Submitted\n</string>
+    <string name="display_movie">Movie Title: %s\n</string>
+
+    <string name="welcome_message">Welcome to the Movie Rating App.</string>
+
+    <string name="settings">Settings</string>
+    <!-- Titles for preference categories -->
+    <string name="rating_pref">Rating Preferences</string>
+    <string name="display_pref">Display Preferences</string>
+
+    <!-- Titles for preferences -->
+    <string name="default_rating">Default rating</string>
+    <string name="theme_choice">Dark Theme</string>
+
+    <!-- Key name for rating preference in SharedPreferences -->
+    <string name="pref_rating_key" translatable="false">rating</string>
+    <string name="pref_theme_key" translatable="false">dark</string>
+
+
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="title_activity_settings2">SettingsActivity2</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- course name, instructor name, course type, rating -->
+    <array name="movie_titles">
+        <item>Harry Potter</item>
+        <item>The Notebook</item>
+        <item>The Ring</item>
+    </array>
+    <array name="comments">
+        <item>Lovely!</item>
+        <item>Superb!</item>
+        <item>Amazing!</item>
+    </array>
+    <array name="genres">
+        <item>Fantasy</item>
+        <item>Romance</item>
+        <item>Horror</item>
+    </array>
+    <array name="ratings">
+        <item>"5"</item>
+        <item>"4"</item>
+        <item>"3"</item>
+    </array>
+
+    <!-- Labels and values for preference list -->
+    <string-array name="rating_labels">
+        <item>One Star</item>
+        <item>Two Stars</item>
+        <item>Three Stars</item>
+        <item>Four Stars</item>
+        <item>Five Stars</item>
+    </string-array>
+
+    <string-array name="rating_values">
+        <item>"1</item>
+        <item>"2"</item>
+        <item>"3"</item>
+        <item>"4"</item>
+        <item>"5"</item>
+    </string-array>
+
+    <plurals name="star_rating">
+        <item quantity="zero">Rating: %d stars</item>
+        <item quantity="one">Rating: %d star</item>
+        <item quantity="other">Rating: %d starts</item>
+    </plurals>
+
+    <string name="sign_out">Sign Out</string>
+
+</resources>
